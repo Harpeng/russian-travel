@@ -1,0 +1,11 @@
+.lead{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas: 
+    "lead__title lead__title lead__title lead__title"
+    ". lead__subtitle lead__subtitle ."
+    "lead__image lead__image lead__image lead__image "
+    "lead__caption . . .";
+    justify-content: center;
+}

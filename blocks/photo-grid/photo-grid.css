@@ -1,0 +1,15 @@
+.photo-grid{
+    padding: 0 48px;
+}
+
+@media screen and (max-width:920px){
+    .photo-grid{
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:670px){
+    .photo-grid{
+        padding: 0 16px;
+    }
+}

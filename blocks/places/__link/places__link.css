@@ -1,0 +1,12 @@
+.places__link{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self:end;
+    color: #ffffff;
+    text-decoration-line:underline;
+}
+
+.places__link:hover{
+    opacity: 0.8; 
+    transition: 0.5s linear;
+}

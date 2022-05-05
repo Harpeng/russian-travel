@@ -1,0 +1,18 @@
+.places__url-heading{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self:end;
+    padding-bottom: 12px;
+}
+
+@media screen and (max-width: 920px) {
+    .places__url-heading{
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .places__url-heading{
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,22 @@
+.header__container{
+    padding: 0 48px;
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1170px){
+    .header__container{
+        margin-bottom: 48px;
+    }  
+}
+
+@media screen and (max-width: 920px){
+    .header__container{
+        padding:0 28px;
+    }  
+}
+
+@media screen and (max-width: 670px){
+    .header__container{
+        padding:0 16px;
+    }  
+}

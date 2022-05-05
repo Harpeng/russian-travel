@@ -1,0 +1,12 @@
+.places__image{
+    max-height: 460px;
+    max-width: 100%;
+    grid-column:1/2;
+    grid-row: 2/4;
+}
+
+@media screen and (max-width:610px) {
+    .places__image{
+        padding: 32px 0;
+    }
+}

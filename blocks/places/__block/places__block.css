@@ -1,0 +1,33 @@
+.places__block{
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    gap:48px 40px;
+    padding-bottom: 80px;
+    min-height: 152px;
+}
+
+.places__block:last-of-type{
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__block{
+        grid-template-columns: 440px 1fr;
+        gap:48px 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__block{
+        grid-template-columns: 340px 1fr;
+        gap:48px 28px;
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .places__block{
+        display: block;
+        padding-bottom: 50px;
+    }
+}
