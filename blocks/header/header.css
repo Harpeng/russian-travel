@@ -1,4 +1,23 @@
 .header{
     display: flex;
     justify-content: space-between;
+    padding: 0 48px 56px 48px;
+}
+
+@media screen and (max-width: 1170px){
+    .header{
+        padding-bottom: 48px;
+    }  
+}
+
+@media screen and (max-width: 920px){
+    .header{
+        padding:0 28px 48px 28px;
+    }  
+}
+
+@media screen and (max-width: 670px){
+    .header{
+        padding:0 16px 48px 16px;
+    }  
 }

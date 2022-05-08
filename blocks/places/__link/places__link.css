@@ -1,12 +1,24 @@
 .places__link{
     grid-column: 2/3;
     grid-row: 1/2;
-    align-self:end;
+    align-self:flex-start;
     color: #ffffff;
     text-decoration-line:underline;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 12px;
+    margin-bottom: 48px;
 }
 
 .places__link:hover{
     opacity: 0.8; 
     transition: 0.5s linear;
+}
+
+@media screen and (max-width: 720px) {
+    .places__link{
+        align-self: start;
+        padding-left: 16px;
+        margin-bottom: 0;
+    }
 }

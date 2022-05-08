@@ -5,4 +5,17 @@
     line-height: 1.4;
     text-transform: uppercase;
     grid-area: lead__caption;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width:920px) {
+    .lead__caption{
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width:705px) {
+    .lead__caption{
+        padding-left: 24px;
+    }
 }

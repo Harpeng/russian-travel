@@ -1,6 +1,9 @@
 .lead__image{
-    width: 100%;
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
     margin-bottom: 8px;
     grid-area: lead__image;
-    object-fit: contain;
+    object-fit: cover;
+    height: auto;
 }

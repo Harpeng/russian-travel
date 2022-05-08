@@ -1,18 +1,23 @@
 .places__url-heading{
     grid-column: 2/3;
     grid-row: 1/2;
-    align-self:end;
-    padding-bottom: 12px;
+    align-self:flex-start;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    margin: 0;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
     .places__url-heading{
         line-height: 1;
     }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 720px) {
     .places__url-heading{
+        align-self: start;
         margin-top: 32px;
+        padding-left: 16px;
     }
 }
